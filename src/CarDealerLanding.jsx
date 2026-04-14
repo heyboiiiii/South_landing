@@ -20,12 +20,176 @@ export default function CarDealerLanding() {
   const youtubeLink = "https://www.youtube.com/";
 
   const cars = [
-    {
-      name: "Citroën C3 Aircross 1.6 Vti 115 Feel",
-      img: "https://http2.mlstatic.com/D_NQ_NP_2X_811669-MLA107467190674_032026-F.webp",
-      link: "https://auto.mercadolibre.com.ar/MLA-1690745761-citron-c3-aircross-16-vti-115-feel-_JM#polycard_client=search-desktop&search_layout=grid&position=1&type=item&tracking_id=9b861b03-372c-471c-9907-02d392aad73d"
-    },
-    
+  {
+    "name": "Chevrolet Onix 1.4 Joy Ls 98cv",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_882330-MLA86512420559_062025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1690305293-chevrolet-onix-14-joy-ls-98cv-_JM#polycard_client=search-desktop&search_layout=grid&position=1&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Chevrolet Onix 1.2 Lt",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_921484-MLA106359369010_022026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1674455149-chevrolet-onix-12-lt-_JM#polycard_client=search-desktop&search_layout=grid&position=2&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Renault Alaskan 2.3 Dci Intens Noir 190cv 4x4 At",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_917303-MLA98743041527_112025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1586104957-renault-alaskan-23-dci-intens-noir-190cv-4x4-at-_JM#polycard_client=search-desktop&search_layout=grid&position=3&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Honda Hr-v 1.8 Ex 2wd Cvt",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_789482-MLA105085973858_012026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-2799847844-honda-hr-v-18-ex-2wd-cvt-_JM#polycard_client=search-desktop&search_layout=grid&position=4&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Peugeot 208 1.5 Allure Touchscreen",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_987788-MLA108006211797_032026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-2957191642-peugeot-208-15-allure-touchscreen-_JM#polycard_client=search-desktop&search_layout=grid&position=5&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Volkswagen Amarok 2.0 Cd Tdi 140cv Trendline",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_663961-MLA108511454519_032026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-3025476794-volkswagen-amarok-20-cd-tdi-140cv-trendline-_JM#polycard_client=search-desktop&search_layout=grid&position=6&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Ford Ranger 3.0 V6 Cd 4x4 Xls At 250cv",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_708045-MLA89774634465_082025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1514288329-ford-ranger-30-v6-cd-4x4-xls-at-250cv-_JM#polycard_client=search-desktop&search_layout=grid&position=7&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Citroën C4 Cactus 1.2 Puretech 110 S&s Shine At6",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_746053-MLA101663664828_122025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-2704619330-citron-c4-cactus-12-puretech-110-ss-shine-at6-_JM#polycard_client=search-desktop&search_layout=grid&position=8&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Volkswagen Taos 1.4 250 Tsi Highline",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_634205-MLA96603424909_102025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-3111573126-volkswagen-taos-14-250-tsi-highline-_JM#polycard_client=search-desktop&search_layout=grid&position=9&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Volkswagen Amarok 3.0 V6 Cd",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_868925-MLA93542731338_102025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-3111480944-volkswagen-amarok-30-v6-cd-_JM#polycard_client=search-desktop&search_layout=grid&position=10&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Peugeot Expert 1.6 Hdi Confort",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_749674-MLA109613060543_032026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-3111297318-peugeot-expert-16-hdi-confort-_JM#polycard_client=search-desktop&search_layout=grid&position=11&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Peugeot 208 1.6 Allure",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_612393-MLA106990583249_022026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1674259835-peugeot-208-16-allure-_JM#polycard_client=search-desktop&search_layout=grid&position=12&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Volkswagen Gol Trend 1.6 Trendline 101cv 3p",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_779359-MLA107062449958_022026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-2906359622-volkswagen-gol-trend-16-trendline-101cv-3p-_JM#polycard_client=search-desktop&search_layout=grid&position=13&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Toyota Hilux Pick-up 2.8 Cd Srv 177cv 4x2",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_900763-MLA100478674410_122025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1740878895-toyota-hilux-pick-up-28-cd-srv-177cv-4x2-_JM#polycard_client=search-desktop&search_layout=grid&position=14&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Volkswagen Amarok 3.0 Cd Tdi 258cv V6 Highline 4x4 At",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_673135-MLA107518398467_022026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-2898415898-volkswagen-amarok-30-cd-tdi-258cv-v6-highline-4x4-at-_JM#polycard_client=search-desktop&search_layout=grid&position=15&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "D.s. Ds3 1.2 Puretech 110 At6 So Chic",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_815132-MLA99248915962_112025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1723584017-ds-ds3-12-puretech-110-at6-so-chic-_JM#polycard_client=search-desktop&search_layout=grid&position=16&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Volkswagen Saveiro 1.6 Gp Cd 101cv Power",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_896225-MLA110003622151_042026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1723583951-volkswagen-saveiro-16-gp-cd-101cv-power-_JM#polycard_client=search-desktop&search_layout=grid&position=17&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Jeep Compass 2.0 Gme Blackhawk 4x4 At9",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_603771-MLA108036137898_032026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-3059572858-jeep-compass-20-gme-blackhawk-4x4-at9-_JM#polycard_client=search-desktop&search_layout=grid&position=18&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Ford Maverick 2.0 Ecoboost Cd Lariat At8 4wd",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_913204-MLA106260645965_012026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-2812707088-ford-maverick-20-ecoboost-cd-lariat-at8-4wd-_JM#polycard_client=search-desktop&search_layout=grid&position=19&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Peugeot Partner 1.6 Hdi Furgon Confort 92",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_984102-MLA105335721823_012026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1649946391-peugeot-partner-16-hdi-furgon-confort-92-_JM#polycard_client=search-desktop&search_layout=grid&position=20&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Toyota Hilux Pick-up 2.8 Cd Srx 204cv 4x4 At",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_787900-MLA108366434154_032026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-3082828418-toyota-hilux-pick-up-28-cd-srx-204cv-4x4-at-_JM#polycard_client=search-desktop&search_layout=grid&position=21&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Chevrolet Spin 1.8 Premier 7as At 105cv",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_744013-MLA94681728845_102025-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-1723571491-chevrolet-spin-18-premier-7as-at-105cv-_JM#polycard_client=search-desktop&search_layout=grid&position=22&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Kia K3 Cross 1.6 Gt Line At",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_943072-MLA110433625261_042026-E.webp",
+    "link": "https://auto.mercadolibre.com.ar/MLA-3191213916-kia-k3-cross-16-gt-line-at-_JM#polycard_client=search-desktop&search_layout=grid&position=23&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Polaris Rzr Xp 1000 Premium",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_806846-MLA102675034305_122025-E.webp",
+    "link": "https://vehiculo.mercadolibre.com.ar/MLA-1620665337-polaris-rzr-xp-1000-premium-_JM#polycard_client=search-desktop&search_layout=grid&position=24&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Honda Cb Twister 250",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_661655-MLA98463977257_112025-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-1706225867-honda-cb-twister-250-_JM#polycard_client=search-desktop&search_layout=grid&position=25&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Harley Davidson Nightster 1200",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_975313-MLA89661855783_082025-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-1723546315-harley-davidson-nightster-1200-_JM#polycard_client=search-desktop&search_layout=grid&position=26&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Harley Davidson Xl1200n",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_929646-MLA84457146670_052025-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-2784446530-harley-davidson-xl1200n-_JM#polycard_client=search-desktop&search_layout=grid&position=27&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Yamaha Tracer 900",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_946245-MLA80676455394_112024-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-3099838434-yamaha-tracer-900-_JM#polycard_client=search-desktop&search_layout=grid&position=28&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Kymco Xciting S 400l",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_837946-MLA84754102603_052025-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-2784740190-kymco-xciting-s-400l-_JM#polycard_client=search-desktop&search_layout=grid&position=29&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Kymco Ak 550",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_802883-MLA108719824330_032026-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-3105262604-kymco-ak-550-_JM#polycard_client=search-desktop&search_layout=grid&position=30&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Yamaha Nmax",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_678174-MLA104220564718_012026-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-1644302913-yamaha-nmax-_JM#polycard_client=search-desktop&search_layout=grid&position=31&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Yamaha R3",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_756676-MLA74421557971_022024-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-1674276315-yamaha-r3-_JM#polycard_client=search-desktop&search_layout=grid&position=32&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Suzuki Lt 160",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_632281-MLA81972847090_022025-E.webp",
+    "link": "https://vehiculo.mercadolibre.com.ar/MLA-1674250537-suzuki-lt-160-_JM#polycard_client=search-desktop&search_layout=grid&position=33&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  },
+  {
+    "name": "Bmw Gs 650",
+    "img": "https://http2.mlstatic.com/D_Q_NP_2X_611359-MLA71646048588_092023-E.webp",
+    "link": "https://moto.mercadolibre.com.ar/MLA-2805051474-bmw-gs-650-_JM#polycard_client=search-desktop&search_layout=grid&position=34&type=item&tracking_id=8c809635-0f86-4f15-a34f-aa76d8466107"
+  }
   ];
 
   const [displayInventory,setDisplayInventory] = useState(false);
