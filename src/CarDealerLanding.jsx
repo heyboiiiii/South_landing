@@ -264,7 +264,7 @@ export default function CarDealerLanding() {
             
             <div>
               <span className="font-semibold text-lg">South Automóviles</span>
-              <span className="text-gray-500 text-sm block">Av. 12 de octubre 327, Quilmes</span>
+              <span className="text-gray-500 text-sm block">Av. 12 de Octubre 327, Quilmes</span>
             </div>
             
           </div>
@@ -336,13 +336,13 @@ export default function CarDealerLanding() {
               Buscamos brindar la mejor experiencia de compra de autos 0km y usados de calidad en Quilmes y sus alrededores.
               <br />
               <br />
-              📍Te esperamos en Av. 12 de octubre 327 (Quilmes) para brindarte la Atención que te mereces !!! 
+              📍Te esperamos en Av. 12 de Octubre 327 (Quilmes) para brindarte la atención que te mereces !!! 
               <br />
               <br />
-              👉🏼Consultanos por Amplia Financiación a tasa fija 
+              👉🏼Consultanos por Amplia Financiación a tasa fija.
               <br />
               <br />
-              ⚠️Evaluamos tu Usado para Permuta o Consignación via On Line
+              ⚠️Evaluamos tu Usado para Permuta o Consignación via OnLine.
             </p>
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
               <button className="bg-primaryDark text-white px-6 py-3 rounded-xl">
@@ -352,7 +352,7 @@ export default function CarDealerLanding() {
           </div>
 
           <img
-            src="https://instagram.feze14-1.fna.fbcdn.net/v/t51.82787-15/525168182_18140973277406718_8278623931767130485_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzY4NzU0ODY0OTE1MzU2NDYwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc5NS5zZHIuQzMifQ%3D%3D&_nc_ohc=SeR3B944mmQQ7kNvwHgy1KW&_nc_oc=Adqk2BtKkuqMad9-YRSc7pLrR7uwnPznLEMpZUlVbfmJ8M5OHPKYvSo7KeR6FSvVuYM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.feze14-1.fna&_nc_gid=smmDjBXutwcSSXOO9UGEQw&_nc_ss=7a32e&oh=00_Af33XfL6IL00dtYXGGSSspW2_RKvunkew0ScDIkR3ZvBLQ&oe=69E4BB0B"
+            src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcMYzgNY3SYbD7lBBT0mMxnFK5bu3oMXDoAkFEuERZazw2DCits7ImbGE3UW8UoiYt4XGV3zF4DS24HgP2W1U_fIwkdJwhDduc9RxqgdJd30WNE0kc9Qn9uG-8RXjP-10M2-yRlg=s621-k-no"
             className="rounded-2xl shadow w-full h-96 object-cover"
           />
         </div>
